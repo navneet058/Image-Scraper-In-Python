@@ -4,6 +4,15 @@ from urllib.parse import urlparse
 from os.path  import basename
 import os
 
+"""
+Author : Navneet Chandra Tiwari
+Email: navneet058@gmail.com
+Website:
+
+Note : This program is for educational purpose
+
+"""
+
 
 def crowler(url):
     page=requests.get(url).text
